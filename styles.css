@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* box-sizing: border-box; */
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    height: 100vh;
+    background-color: #fbc503d7;
+}
+body  div{
+    background-color: #f1f1f1;
+    width: 50%;
+    text-align: center;
+    font-size: 2.8rem;
+}
+.mid-section {
+    background: rgba(0, 255, 255, 0.053);
+    width: 79%;
+    align-self: center;
+    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  .mid-section  i {
+    display: inline-block;
+    /* bottom: 3em; */
+    top: 3em;
+  }
+  .mid-section h1 {
+    display: inline-block;
+    font-size: 1.7em;
+  }
+  a{
+    color: blue;
+    display: block;
+    text-decoration: none;
+    align-self: center;
+  }
+  p {
+    align-self: center;
+    width: 79%;
+    text-align: left;
+    padding-bottom: 2em;
+  }
+  /* ############################first-component########################### */
+.first-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.4em;
+}
+.first-component h4 {
+    text-align: center;
+    padding-bottom: 1.4em;
+    padding-top: 1em;
+    width: 50%;
+    font-size: .6em;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  }
+  /* ############################second-component############################# */
+  .second-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second-component h4{
+    text-align: center;
+    padding-bottom: 1.4em;
+    padding-top: 1em;
+    width: 50%;
+    font-size: .6em;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  }
+  .second-component > .abottom{
+    padding-top: 7.5em;
+  }
+
+  /* #############################third-component################################# */
+  .third-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .third-component h4{
+    text-align: center;
+    padding-bottom: 1.4em;
+    padding-top: 1em;
+    width: 50%;
+    font-size: .6em;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  }
+  .third-component .abbottom{
+    padding-top: 6.8em;
+  }
+  /* ############################fourth-component################################# */
+  .fourth-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fourth-component h4{
+    text-align: center;
+    padding-bottom: 1.4em;
+    padding-top: 1em;
+    width: 50%;
+    font-size: .6em;
+    border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  }
+  .fourth-component .aabottom{
+    padding-top: 8.7em;
+  }
+.second-component, .third-component{
+    margin-right: 1.4em;
+}
+/* .owl-dots {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .owl-dot {
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 50%;
+    border: 2px solid crimson !important;
+    transition: all 0.3s ease;
+  }
+  .owl-dot.active {
+    width: 35px;
+    border-radius: 14px;
+  }
+  .owl-dot.active,
+  .owl-dot:hover {
+    background: crimson !important;
+  } */
+
+@media(max-width:800px){
+    body{
+        width: 100%;
+        flex-direction: column;
+    }
+    body div{
+        width: 100%;
+    }
+}

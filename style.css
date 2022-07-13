@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap");
+/* *{
+    padding: 0px;
+    margin: 0px;
+} */
+body {
+  border: 1px solid #e8aa42;
+  background: #f6d3d3;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  display: flex;
+  /* flex-wrap: nowrap; */
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  /* align-content: flex-end; */
+  font-family: "Montserrat", sans-serif;
+  height: 98vh;
+}
+/* ##############components################ */
+.first-component {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  justify-content: center;
+  align-items: center;
+
+  /* background: lightskyblue; */
+}
+.second-component {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  /* background: lightskyblue; */
+}
+.third-component {
+  font-size: 0.9rem;
+  align-self: stretch;
+  text-align: center;
+  /* background: lightskyblue; */
+}
+.fourth-component {
+  font-size: 1rem;
+  align-self: stretch;
+  text-align: center;
+  /* background: lightskyblue; */
+}
+.first-component > h4 {
+  text-align: center;
+  padding-bottom: 2em;
+  width: 50%;
+  /* background: lawngreen; */
+  font-size: 1rem;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+}
+.second-component > h4 {
+  text-align: center;
+  padding-bottom: 2em;
+  width: 50%;
+  font-size: 1rem;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+}
+.third-component > h4 {
+  width: 50%;
+  font-size: 1rem;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  display: inline-block;
+}
+.fourth-component > h4 {
+  width: 50%;
+  font-size: 1rem;
+  border-bottom: 0.1em solid rgba(0, 0, 0, 0.09);
+  display: inline-block;
+}
+/* #######################first-mid-section###################### */
+.mid-section {
+  background: rgba(0, 255, 255, 0.053);
+  width: 55%;
+  align-self: center;
+  text-align: center;
+  /* padding-left: 3em; */
+  /* margin-left: 3.8em; */
+}
+.third-component > .mid-section {
+  margin-left: 5em;
+}
+.mid-section > i {
+  display: inline-block;
+  position: relative;
+  bottom: 1em;
+  font-size: 1.4em;
+  /* background: lightcoral; */
+}
+.thirdsign {
+  top: 1.7em;
+  margin-right: 10.8em;
+}
+.mid-section > h1 {
+  /* background: lawngreen; */
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  display: inline-block;
+  font-size: 4em;
+}
+a {
+  color: blue;
+  display: block;
+  text-decoration: none;
+  align-self: center;
+}
+.mid-section h3 {
+  /* background: orangered; */
+}
+.third-component > p {
+  margin-left: 5em;
+}
+p {
+  align-self: center;
+  /* margin-left: 3.8em; */
+  word-wrap: break-word;
+  width: 55%;
+  text-align: left;
+  /* background: lightblue; */
+}
+.space {
+  width: 19em;
+  height: 98vh;
+  background: #fbc503d7;
+}
